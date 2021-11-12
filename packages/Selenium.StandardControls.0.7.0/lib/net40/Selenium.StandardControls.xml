@@ -1,0 +1,730 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Selenium.StandardControls</name>
+    </assembly>
+    <members>
+        <member name="T:Selenium.StandardControls.AnchorDriver">
+            <summary>
+            Anchor Driver
+            </summary>
+        </member>
+        <member name="M:Selenium.StandardControls.AnchorDriver.#ctor(OpenQA.Selenium.IWebElement)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="element">Element for generating the driver</param>
+        </member>
+        <member name="M:Selenium.StandardControls.AnchorDriver.#ctor(OpenQA.Selenium.IWebElement,System.Action)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="element">Element for generating the driver</param>
+            <param name="wait">Wait for end of the time of Invoke</param>
+        </member>
+        <member name="P:Selenium.StandardControls.AnchorDriver.Text">
+            <summary>
+            Anchor Text
+            </summary>
+        </member>
+        <member name="P:Selenium.StandardControls.AnchorDriver.Wait">
+            <summary>
+            Wait for end of the time of Invoke
+            </summary>
+        </member>
+        <member name="M:Selenium.StandardControls.AnchorDriver.Invoke">
+            <summary>
+            Click the Anchor
+            </summary>
+        </member>
+        <member name="M:Selenium.StandardControls.AnchorDriver.op_Implicit(Selenium.StandardControls.PageObjectUtility.ElementFinder)~Selenium.StandardControls.AnchorDriver">
+            <summary>
+            Constructor
+            </summary>
+            <param name="finder">A variety of find to the elements</param>
+        </member>
+        <member name="T:Selenium.StandardControls.AdjustBrowser.AdjustBrowserExtensions">
+            <summary>
+            Extension method that is appropriate for browser
+            </summary>
+        </member>
+        <member name="M:Selenium.StandardControls.AdjustBrowser.AdjustBrowserExtensions.ClickEx(OpenQA.Selenium.IWebElement)">
+            <summary>
+            Expanded Click
+            </summary>
+            <param name="element">Extension element</param>
+        </member>
+        <member name="T:Selenium.StandardControls.ButtonDriver">
+            <summary>
+            Button Driver
+            </summary>
+        </member>
+        <member name="M:Selenium.StandardControls.ButtonDriver.#ctor(OpenQA.Selenium.IWebElement)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="element">Element for generating the driver</param>
+        </member>
+        <member name="M:Selenium.StandardControls.ButtonDriver.#ctor(OpenQA.Selenium.IWebElement,System.Action)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="element">Element for generating the driver</param>
+            <param name="wait">Wait for end of the time of Invoke</param>
+        </member>
+        <member name="P:Selenium.StandardControls.ButtonDriver.Text">
+            <summary>
+            Button text
+            </summary>
+        </member>
+        <member name="P:Selenium.StandardControls.ButtonDriver.Wait">
+            <summary>
+            Wait for end of the time of Invoke
+            </summary>
+        </member>
+        <member name="M:Selenium.StandardControls.ButtonDriver.Invoke">
+            <summary>
+            Press the button
+            </summary>
+        </member>
+        <member name="M:Selenium.StandardControls.ButtonDriver.op_Implicit(Selenium.StandardControls.PageObjectUtility.ElementFinder)~Selenium.StandardControls.ButtonDriver">
+            <summary>
+            Constructor
+            </summary>
+            <param name="finder">A variety of find to the elements</param>
+        </member>
+        <member name="T:Selenium.StandardControls.CheckBoxDriver">
+            <summary>
+            CheckBox Driver
+            </summary>
+        </member>
+        <member name="M:Selenium.StandardControls.CheckBoxDriver.#ctor(OpenQA.Selenium.IWebElement)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="element">Element for generating the driver</param>
+        </member>
+        <member name="M:Selenium.StandardControls.CheckBoxDriver.#ctor(OpenQA.Selenium.IWebElement,System.Action)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="element">Element for generating the driver</param>
+            <param name="wait">Wait for end of the time of Edit</param>
+        </member>
+        <member name="P:Selenium.StandardControls.CheckBoxDriver.Checked">
+            <summary>
+            State of the check check box
+            </summary>
+        </member>
+        <member name="P:Selenium.StandardControls.CheckBoxDriver.Wait">
+            <summary>
+            Wait for end of the time of Edit
+            </summary>
+        </member>
+        <member name="M:Selenium.StandardControls.CheckBoxDriver.Edit(System.Boolean)">
+            <summary>
+            Check box of the check of the on-off
+            </summary>
+            <param name="check">true:checked false:unchecked</param>
+        </member>
+        <member name="M:Selenium.StandardControls.CheckBoxDriver.op_Implicit(Selenium.StandardControls.PageObjectUtility.ElementFinder)~Selenium.StandardControls.CheckBoxDriver">
+            <summary>
+            Constructor
+            </summary>
+            <param name="finder">A variety of find to the elements</param>
+        </member>
+        <member name="T:Selenium.StandardControls.ControlDriverBase">
+            <summary>
+            Based Control Driver
+            </summary>
+        </member>
+        <member name="M:Selenium.StandardControls.ControlDriverBase.#ctor(OpenQA.Selenium.IWebElement)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="element">Element for generating the driver</param>
+        </member>
+        <member name="P:Selenium.StandardControls.ControlDriverBase.Element">
+            <summary>
+            Control driver element
+            </summary>
+        </member>
+        <member name="P:Selenium.StandardControls.ControlDriverBase.WebDriver">
+            <summary>
+            Simple to WebDriver accessor
+            </summary>
+        </member>
+        <member name="P:Selenium.StandardControls.ControlDriverBase.Info">
+            <summary>
+            More information of Element
+            </summary>
+        </member>
+        <member name="P:Selenium.StandardControls.ControlDriverBase.JS">
+            <summary>
+            Simple to IJavaScriptExecutor accessor
+            </summary>
+        </member>
+        <member name="P:Selenium.StandardControls.ControlDriverBase.Parent">
+            <summary>
+            Parent element
+            </summary>
+        </member>
+        <member name="M:Selenium.StandardControls.ControlDriverBase.Show">
+            <summary>
+            Show Scroll If there is no element in the screen
+            </summary>
+        </member>
+        <member name="M:Selenium.StandardControls.ControlDriverBase.Blur">
+            <summary>
+            Remove the focus from Element
+            </summary>
+        </member>
+        <member name="M:Selenium.StandardControls.ControlDriverBase.Focus">
+            <summary>
+            The focus to Element
+            </summary>
+        </member>
+        <member name="T:Selenium.StandardControls.DropDownListDriver">
+            <summary>
+            DropDownList Driver
+            </summary>
+        </member>
+        <member name="M:Selenium.StandardControls.DropDownListDriver.#ctor(OpenQA.Selenium.IWebElement)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="element">Element for generating the driver</param>
+        </member>
+        <member name="M:Selenium.StandardControls.DropDownListDriver.#ctor(OpenQA.Selenium.IWebElement,System.Action)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="element">Element for generating the driver</param>
+            <param name="wait">Wait for end of the time of Edit</param>
+        </member>
+        <member name="P:Selenium.StandardControls.DropDownListDriver.Core">
+            <summary>
+            Simple to SelectElement accessor
+            </summary>
+        </member>
+        <member name="P:Selenium.StandardControls.DropDownListDriver.Text">
+            <summary>
+            The DropDown selection number
+            </summary>
+        </member>
+        <member name="P:Selenium.StandardControls.DropDownListDriver.SelectedIndex">
+            <summary>
+            The DropDown selection number
+            </summary>
+        </member>
+        <member name="P:Selenium.StandardControls.DropDownListDriver.Wait">
+            <summary>
+            Wait for end of the time of Edit
+            </summary>
+        </member>
+        <member name="P:Selenium.StandardControls.DropDownListDriver.Items">
+            <summary>
+            String of each item in the DropDown
+            </summary>
+        </member>
+        <member name="M:Selenium.StandardControls.DropDownListDriver.Edit(System.String)">
+            <summary>
+            Select the text of the item in the DropDown
+            </summary>
+            <param name="text">Item Text</param>
+        </member>
+        <member name="M:Selenium.StandardControls.DropDownListDriver.Edit(System.Int32)">
+            <summary>
+            Select the number of the item in the DropDown
+            </summary>
+            <param name="index">Item Index</param>
+        </member>
+        <member name="M:Selenium.StandardControls.DropDownListDriver.op_Implicit(Selenium.StandardControls.PageObjectUtility.ElementFinder)~Selenium.StandardControls.DropDownListDriver">
+            <summary>
+            Constructor
+            </summary>
+            <param name="finder">A variety of find to the elements</param>
+        </member>
+        <member name="T:Selenium.StandardControls.ItemsControlDriver`1">
+            <summary>
+            Button Driver
+            </summary>
+        </member>
+        <member name="M:Selenium.StandardControls.ItemsControlDriver`1.#ctor(OpenQA.Selenium.IWebElement)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="element">Element for generating the driver</param>
+        </member>
+        <member name="M:Selenium.StandardControls.ItemsControlDriver`1.op_Implicit(Selenium.StandardControls.PageObjectUtility.ElementFinder)~Selenium.StandardControls.ItemsControlDriver{`0}">
+            <summary>
+            Converter
+            </summary>
+            <param name="finder">Convert</param>
+        </member>
+        <member name="T:Selenium.StandardControls.PageObjectUtility.ElementFinder">
+            <summary>
+            Find Element
+            </summary>
+        </member>
+        <member name="M:Selenium.StandardControls.PageObjectUtility.ElementFinder.#ctor(OpenQA.Selenium.ISearchContext,OpenQA.Selenium.By)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="context">Defines the interface used to search for elements</param>
+            <param name="by">Provides a mechanism by which to find elements within a document</param>
+        </member>
+        <member name="M:Selenium.StandardControls.PageObjectUtility.ElementFinder.Find">
+            <summary>
+            Finds the first OpenQA.Selenium.IWebElement using the given method
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Selenium.StandardControls.PageObjectUtility.MappingBase.ByClassName(System.String)">
+            <summary>
+            Find Element in ClassName
+            </summary>
+            <param name="classNameToFind">ClassName</param>
+            <returns>ElementFinder</returns>
+        </member>
+        <member name="M:Selenium.StandardControls.PageObjectUtility.MappingBase.ByCssSelector(System.String)">
+            <summary>
+            Find Element in CssSelector
+            </summary>
+            <param name="cssSelectorToFind">CssSelector</param>
+            <returns>ElementFinder</returns>
+        </member>
+        <member name="M:Selenium.StandardControls.PageObjectUtility.MappingBase.ById(System.String)">
+            <summary>
+            Find Element in Id
+            </summary>
+            <param name="idToFind">ElementFinder</param>
+            <returns>ElementFinder</returns>
+        </member>
+        <member name="M:Selenium.StandardControls.PageObjectUtility.MappingBase.ByLinkText(System.String)">
+            <summary>
+            Find Element in LinkText
+            </summary>
+            <param name="linkTextToFind">LinkText</param>
+            <returns>ElementFinder</returns>
+        </member>
+        <member name="M:Selenium.StandardControls.PageObjectUtility.MappingBase.ByName(System.String)">
+            <summary>
+            Find Element in ByName
+            </summary>
+            <param name="nameToFind">ByName</param>
+            <returns>ElementFinder</returns>
+        </member>
+        <member name="M:Selenium.StandardControls.PageObjectUtility.MappingBase.ByPartialLinkText(System.String)">
+            <summary>
+            Find Element in PartialLinkText
+            </summary>
+            <param name="partialLinkTextToFind">PartialLinkText</param>
+            <returns>ElementFinder</returns>
+        </member>
+        <member name="M:Selenium.StandardControls.PageObjectUtility.MappingBase.ByTagName(System.String)">
+            <summary>
+            Find Element in TagName
+            </summary>
+            <param name="tagNameToFind">TagName</param>
+            <returns>ElementFinder</returns>
+        </member>
+        <member name="M:Selenium.StandardControls.PageObjectUtility.MappingBase.#ctor(OpenQA.Selenium.ISearchContext)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="searchContext">SearchContext.</param>
+        </member>
+        <member name="T:Selenium.StandardControls.PageObjectUtility.PageBase">
+            <summary>
+            Html of information acquisition base
+            </summary>
+        </member>
+        <member name="P:Selenium.StandardControls.PageObjectUtility.PageBase.Driver">
+            <summary>
+            Driver to generate a page
+            </summary>
+        </member>
+        <member name="M:Selenium.StandardControls.PageObjectUtility.PageBase.ByXPath(System.String)">
+            <summary>
+            Find Element in XPath
+            </summary>
+            <param name="xpathToFind">XPath</param>
+            <returns>ElementFinder</returns>
+        </member>
+        <member name="M:Selenium.StandardControls.PageObjectUtility.PageBase.#ctor(OpenQA.Selenium.IWebDriver)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="driver">Driver to generate a page</param>
+        </member>
+        <member name="T:Selenium.StandardControls.PageObjectUtility.ComponentBase">
+            <summary>
+            Html of information acquisition base
+            </summary>
+        </member>
+        <member name="P:Selenium.StandardControls.PageObjectUtility.ComponentBase.Element">
+            <summary>
+            Driver to generate a page
+            </summary>
+        </member>
+        <member name="M:Selenium.StandardControls.PageObjectUtility.ComponentBase.#ctor(OpenQA.Selenium.IWebElement)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="element">Element of Component.</param>
+        </member>
+        <member name="T:Selenium.StandardControls.ElementInfo">
+            <summary>
+            More information of Element
+            </summary>
+        </member>
+        <member name="M:Selenium.StandardControls.ElementInfo.#ctor(OpenQA.Selenium.IWebElement)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="core">Element for generating the ElementInfo</param>
+        </member>
+        <member name="P:Selenium.StandardControls.ElementInfo.Id">
+            <summary>
+            To get the id attributes of
+            </summary>
+        </member>
+        <member name="P:Selenium.StandardControls.ElementInfo.Name">
+            <summary>
+            To get the innerHTML attributes of
+            </summary>
+        </member>
+        <member name="P:Selenium.StandardControls.ElementInfo.InnerHtml">
+            <summary>
+            To get the innerHTML attributes of
+            </summary>
+        </member>
+        <member name="P:Selenium.StandardControls.ElementInfo.InnerText">
+            <summary>
+            To get the innerText attributes of
+            </summary>
+        </member>
+        <member name="P:Selenium.StandardControls.ElementInfo.Text">
+            <summary>
+            To get the text attributes of
+            </summary>
+        </member>
+        <member name="P:Selenium.StandardControls.ElementInfo.Value">
+            <summary>
+            To get the value attributes of
+            </summary>
+        </member>
+        <member name="P:Selenium.StandardControls.ElementInfo.Class">
+            <summary>
+            To get the class attributes of
+            </summary>
+        </member>
+        <member name="P:Selenium.StandardControls.ElementInfo.Width">
+            <summary>
+            To get the width css value of
+            </summary>
+        </member>
+        <member name="P:Selenium.StandardControls.ElementInfo.Height">
+            <summary>
+            To get the height css value of
+            </summary>
+        </member>
+        <member name="P:Selenium.StandardControls.ElementInfo.FontSize">
+            <summary>
+            To get the fontSize css value of
+            </summary>
+        </member>
+        <member name="P:Selenium.StandardControls.ElementInfo.Font">
+            <summary>
+            To get the fontFamily css value of
+            </summary>
+        </member>
+        <member name="P:Selenium.StandardControls.ElementInfo.FontBold">
+            <summary>
+            To get the fontWeight css value of
+            </summary>
+        </member>
+        <member name="P:Selenium.StandardControls.ElementInfo.FontItalic">
+            <summary>
+            To get the fontStyle css value of
+            </summary>
+        </member>
+        <member name="P:Selenium.StandardControls.ElementInfo.TextUnderline">
+            <summary>
+            To get the textDecoration css value of contains underline
+            </summary>
+        </member>
+        <member name="P:Selenium.StandardControls.ElementInfo.TextLineThrough">
+            <summary>
+            To get the textDecoration css value of contains line-through
+            </summary>
+        </member>
+        <member name="P:Selenium.StandardControls.ElementInfo.Color">
+            <summary>
+            To get the color css value of
+            </summary>
+        </member>
+        <member name="P:Selenium.StandardControls.ElementInfo.BackGroundColor">
+            <summary>
+            To get the backgroundColor css value of
+            </summary>
+        </member>
+        <member name="P:Selenium.StandardControls.ElementInfo.BackGroundImage">
+            <summary>
+            To get the backgroundImage css value of
+            </summary>
+        </member>
+        <member name="P:Selenium.StandardControls.ElementInfo.TabIndex">
+            <summary>
+            To get the tabIndex attributes of
+            </summary>
+        </member>
+        <member name="P:Selenium.StandardControls.ElementInfo.ImeMode">
+            <summary>
+            To get the imeMode css value of
+            </summary>
+        </member>
+        <member name="P:Selenium.StandardControls.ElementInfo.MaxLength">
+            <summary>
+            To get the maxLength attributes of
+            </summary>
+        </member>
+        <member name="P:Selenium.StandardControls.ElementInfo.TextAlign">
+            <summary>
+            To get the textAlign css value of
+            </summary>
+        </member>
+        <member name="M:Selenium.StandardControls.ElementInfo.GetAttribute``1(System.String)">
+            <summary>
+            Gets the value of the specified attribute for this element
+            </summary>
+            <typeparam name="T">Type of attributes(ex. text:int tabIndex:long)</typeparam>
+            <param name="name">The name of the attribute</param>
+            <returns>The attribute's current value. Returns a null if the value is not set</returns>
+        </member>
+        <member name="M:Selenium.StandardControls.ElementInfo.GetCssValue(System.String)">
+            <summary>
+            Gets the value of a CSS property of this element
+            </summary>
+            <param name="name">The name of the CSS property to get the value of</param>
+            <returns>The value of the specified CSS property</returns>
+        </member>
+        <member name="T:Selenium.StandardControls.LabelDriver">
+            <summary>
+            Label Driver
+            </summary>
+        </member>
+        <member name="M:Selenium.StandardControls.LabelDriver.#ctor(OpenQA.Selenium.IWebElement)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="element">Element for generating the driver</param>
+        </member>
+        <member name="P:Selenium.StandardControls.LabelDriver.Text">
+            <summary>
+            Label Text
+            </summary>
+        </member>
+        <member name="M:Selenium.StandardControls.LabelDriver.op_Implicit(Selenium.StandardControls.PageObjectUtility.ElementFinder)~Selenium.StandardControls.LabelDriver">
+            <summary>
+            Constructor
+            </summary>
+            <param name="finder">A variety of find to the elements</param>
+        </member>
+        <member name="T:Selenium.StandardControls.RadioButtonDriver">
+            <summary>
+            RadioButton Driver
+            </summary>
+        </member>
+        <member name="M:Selenium.StandardControls.RadioButtonDriver.#ctor(OpenQA.Selenium.IWebElement)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="element">Element for generating the driver</param>
+        </member>
+        <member name="M:Selenium.StandardControls.RadioButtonDriver.#ctor(OpenQA.Selenium.IWebElement,System.Action)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="element">Element for generating the driver</param>
+            <param name="wait">Wait for end of the time of Edit</param>
+        </member>
+        <member name="P:Selenium.StandardControls.RadioButtonDriver.Checked">
+            <summary>
+            State of the check RadioButton
+            </summary>
+        </member>
+        <member name="P:Selenium.StandardControls.RadioButtonDriver.Wait">
+            <summary>
+            Wait for end of the time of Edit
+            </summary>
+        </member>
+        <member name="M:Selenium.StandardControls.RadioButtonDriver.Edit">
+             <summary>
+            RadioButton of the check of the on-off
+             </summary>
+        </member>
+        <member name="M:Selenium.StandardControls.RadioButtonDriver.op_Implicit(Selenium.StandardControls.PageObjectUtility.ElementFinder)~Selenium.StandardControls.RadioButtonDriver">
+            <summary>
+            Constructor
+            </summary>
+            <param name="finder">A variety of find to the elements</param>
+        </member>
+        <member name="T:Selenium.StandardControls.TextAreaDriver">
+            <summary>
+            TextArea Driver
+            </summary>
+        </member>
+        <member name="M:Selenium.StandardControls.TextAreaDriver.#ctor(OpenQA.Selenium.IWebElement)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="element">Element for generating the driver</param>
+        </member>
+        <member name="M:Selenium.StandardControls.TextAreaDriver.op_Implicit(Selenium.StandardControls.PageObjectUtility.ElementFinder)~Selenium.StandardControls.TextAreaDriver">
+            <summary>
+            Constructor
+            </summary>
+            <param name="finder">A variety of find to the elements</param>
+        </member>
+        <member name="T:Selenium.StandardControls.DateDriver">
+            <summary>
+            Date Driver
+            </summary>
+        </member>
+        <member name="M:Selenium.StandardControls.DateDriver.#ctor(OpenQA.Selenium.IWebElement)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="element">Element for generating the driver</param>
+        </member>
+        <member name="M:Selenium.StandardControls.DateDriver.#ctor(OpenQA.Selenium.IWebElement,System.Action)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="element">Element for generating the driver</param>
+            <param name="wait">Wait for end of the time of Edit</param>
+        </member>
+        <member name="P:Selenium.StandardControls.DateDriver.Wait">
+            <summary>
+            Wait for end of the time of Edit
+            </summary>
+        </member>
+        <member name="P:Selenium.StandardControls.DateDriver.Text">
+            <summary>
+             TextBox text
+            </summary>
+        </member>
+        <member name="M:Selenium.StandardControls.DateDriver.Edit(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            To edit the text in the TextBox
+            </summary>
+            <param name="year">year</param>
+            <param name="month">month</param>
+            <param name="day">day</param>
+        </member>
+        <member name="M:Selenium.StandardControls.DateDriver.op_Implicit(Selenium.StandardControls.PageObjectUtility.ElementFinder)~Selenium.StandardControls.DateDriver">
+            <summary>
+            Constructor
+            </summary>
+            <param name="finder">A variety of find to the elements</param>
+        </member>
+        <member name="T:Selenium.StandardControls.TextBoxDriver">
+            <summary>
+            TextBox Driver
+            </summary>
+        </member>
+        <member name="M:Selenium.StandardControls.TextBoxDriver.#ctor(OpenQA.Selenium.IWebElement)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="element">Element for generating the driver</param>
+        </member>
+        <member name="M:Selenium.StandardControls.TextBoxDriver.#ctor(OpenQA.Selenium.IWebElement,System.Action)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="element">Element for generating the driver</param>
+            <param name="wait">Wait for end of the time of Edit</param>
+        </member>
+        <member name="P:Selenium.StandardControls.TextBoxDriver.Wait">
+            <summary>
+            Wait for end of the time of Edit
+            </summary>
+        </member>
+        <member name="P:Selenium.StandardControls.TextBoxDriver.Text">
+            <summary>
+             TextBox text
+            </summary>
+        </member>
+        <member name="M:Selenium.StandardControls.TextBoxDriver.Edit(System.String)">
+            <summary>
+            To edit the text in the TextBox
+            </summary>
+            <param name="text"></param>
+        </member>
+        <member name="M:Selenium.StandardControls.TextBoxDriver.op_Implicit(Selenium.StandardControls.PageObjectUtility.ElementFinder)~Selenium.StandardControls.TextBoxDriver">
+            <summary>
+            Constructor
+            </summary>
+            <param name="finder">A variety of find to the elements</param>
+        </member>
+        <member name="T:Selenium.StandardControls.WebElementExtensions">
+            <summary>
+            WebElement extension methods
+            </summary>
+        </member>
+        <member name="M:Selenium.StandardControls.WebElementExtensions.GetParent(OpenQA.Selenium.IWebElement)">
+            <summary>
+            Acquisition of the parent element
+            </summary>
+            <param name="element">Target element</param>
+            <returns>Parent element</returns>
+        </member>
+        <member name="M:Selenium.StandardControls.WebElementExtensions.GetRemoteWebElement(OpenQA.Selenium.IWebElement)">
+            <summary>
+            Simple to RemoteWebElement accessor
+            </summary>
+            <param name="element"></param>
+            <returns>RemoteWebElement</returns>
+        </member>
+        <member name="M:Selenium.StandardControls.WebElementExtensions.GetWebDriver(OpenQA.Selenium.IWebElement)">
+            <summary>
+            Simple to IWebDriver accessor
+            </summary>
+            <param name="element">Target element</param>
+            <returns>IWebDriver</returns>
+        </member>
+        <member name="M:Selenium.StandardControls.WebElementExtensions.GetJS(OpenQA.Selenium.IWebElement)">
+            <summary>
+            Simple to IJavaScriptExecutor accessor
+            </summary>
+            <param name="element">Target element</param>
+            <returns>IJavaScriptExecutor</returns>
+        </member>
+        <member name="M:Selenium.StandardControls.WebElementExtensions.Show(OpenQA.Selenium.IWebElement)">
+            <summary>
+            Show Scroll If there is no element in the screen
+            </summary>
+            <param name="element">Target element</param>
+        </member>
+        <member name="M:Selenium.StandardControls.WebElementExtensions.ScrollIntoView(OpenQA.Selenium.IWebElement,System.Boolean)">
+             <summary>
+            Reliably Show(Show failure and other elements at the top)
+             </summary>
+             <param name="element">Target element</param>
+             <param name="alignToTop"></param>
+        </member>
+        <member name="M:Selenium.StandardControls.WebElementExtensions.Focus(OpenQA.Selenium.IWebElement)">
+            <summary>
+            The focus to Element
+            </summary>
+        </member>
+        <member name="M:Selenium.StandardControls.WebElementExtensions.Blur(OpenQA.Selenium.IWebElement)">
+            <summary>
+            Remove the focus from Element
+            </summary>
+        </member>
+    </members>
+</doc>

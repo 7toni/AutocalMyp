@@ -1,0 +1,742 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CSharp.Winform.UI</name>
+    </assembly>
+    <members>
+        <member name="T:CSharp.Winform.UI.AppMessage">
+            <summary>
+            Application Message
+            </summary>
+        </member>
+        <member name="F:CSharp.Winform.UI.AppMessage.MSG00001">
+            <summary>
+            nodes can not be null.
+            </summary>
+        </member>
+        <member name="T:CSharp.Winform.UI.TreeViewPrimaryType">
+            <summary>
+            TreeView Primary Key Type
+            </summary>
+        </member>
+        <member name="F:CSharp.Winform.UI.TreeViewPrimaryType.Int">
+            <summary>
+            Int
+            </summary>
+        </member>
+        <member name="F:CSharp.Winform.UI.TreeViewPrimaryType.Guid">
+            <summary>
+            Guid
+            </summary>
+        </member>
+        <member name="F:CSharp.Winform.UI.TreeViewPrimaryType.String">
+            <summary>
+            String
+            </summary>
+        </member>
+        <member name="T:CSharp.Winform.UI.BindingNavigator">
+            <summary>
+            BindingNavigator
+            </summary>
+        </member>
+        <member name="M:CSharp.Winform.UI.BindingNavigator.#ctor">
+            <summary>
+            BindingNavigator
+            </summary>
+        </member>
+        <member name="T:CSharp.Winform.UI.Button">
+            <summary>
+            Button
+            </summary>
+        </member>
+        <member name="M:CSharp.Winform.UI.Button.#ctor">
+            <summary>
+            Button
+            </summary>
+        </member>
+        <member name="T:CSharp.Winform.UI.CheckBox">
+            <summary>
+            CheckBox
+            </summary>
+        </member>
+        <member name="M:CSharp.Winform.UI.CheckBox.#ctor">
+            <summary>
+            CheckBox
+            </summary>
+        </member>
+        <member name="T:CSharp.Winform.UI.CheckedListBox">
+            <summary>
+            CheckedListBox
+            </summary>
+        </member>
+        <member name="M:CSharp.Winform.UI.CheckedListBox.#ctor">
+            <summary>
+            CheckedListBox
+            </summary>
+        </member>
+        <member name="T:CSharp.Winform.UI.ComboBox">
+            <summary>
+            ComboBox
+            </summary>
+        </member>
+        <member name="M:CSharp.Winform.UI.ComboBox.#ctor">
+            <summary>
+            ComboBox
+            </summary>
+        </member>
+        <member name="T:CSharp.Winform.UI.ContextMenuStrip">
+            <summary>
+            ContextMenuStrip
+            </summary>
+        </member>
+        <member name="M:CSharp.Winform.UI.ContextMenuStrip.#ctor">
+            <summary>
+            ContextMenuStrip
+            </summary>
+        </member>
+        <member name="T:CSharp.Winform.UI.DataGridViewCellStyle">
+            <summary>
+            DataGridViewCellStyle
+            </summary>
+        </member>
+        <member name="M:CSharp.Winform.UI.DataGridViewCellStyle.#ctor">
+            <summary>
+            DataGridViewCellStyle
+            </summary>
+        </member>
+        <member name="T:CSharp.Winform.UI.DataGridView">
+            <summary>
+            DataGridView
+            </summary>
+        </member>
+        <member name="M:CSharp.Winform.UI.DataGridView.#ctor">
+            <summary>
+            DataGridView
+            </summary>
+        </member>
+        <member name="T:CSharp.Winform.UI.DateTimePicker">
+            <summary>
+            DateTimePicker
+            </summary>
+        </member>
+        <member name="M:CSharp.Winform.UI.DateTimePicker.#ctor">
+            <summary>
+            DateTimePicker
+            </summary>
+        </member>
+        <member name="T:CSharp.Winform.UI.DomainUpDown">
+            <summary>
+            DomainUpDown
+            </summary>
+        </member>
+        <member name="M:CSharp.Winform.UI.DomainUpDown.#ctor">
+            <summary>
+            DomainUpDown
+            </summary>
+        </member>
+        <member name="T:CSharp.Winform.UI.FontDialog">
+            <summary>
+            FontDialog
+            </summary>
+        </member>
+        <member name="M:CSharp.Winform.UI.FontDialog.#ctor">
+            <summary>
+            FontDialog
+            </summary>
+        </member>
+        <member name="T:CSharp.Winform.UI.GroupBox">
+            <summary>
+            GroupBox
+            </summary>
+        </member>
+        <member name="M:CSharp.Winform.UI.GroupBox.#ctor">
+            <summary>
+            GroupBox
+            </summary>
+        </member>
+        <member name="T:CSharp.Winform.UI.Label">
+            <summary>
+            Label
+            </summary>
+        </member>
+        <member name="M:CSharp.Winform.UI.Label.#ctor">
+            <summary>
+            Label
+            </summary>
+        </member>
+        <member name="T:CSharp.Winform.UI.LinkLabel">
+            <summary>
+            LinkLabel
+            </summary>
+        </member>
+        <member name="M:CSharp.Winform.UI.LinkLabel.#ctor">
+            <summary>
+            LinkLabel
+            </summary>
+        </member>
+        <member name="T:CSharp.Winform.UI.ListBox">
+            <summary>
+            ListBox
+            </summary>
+        </member>
+        <member name="M:CSharp.Winform.UI.ListBox.#ctor">
+            <summary>
+            ListBox
+            </summary>
+        </member>
+        <member name="T:CSharp.Winform.UI.ListView">
+            <summary>
+            ListView
+            </summary>
+        </member>
+        <member name="M:CSharp.Winform.UI.ListView.#ctor">
+            <summary>
+            ListView
+            </summary>
+        </member>
+        <member name="T:CSharp.Winform.UI.Loading">
+            <summary>
+            Mask controls
+            </summary>
+        </member>
+        <member name="M:CSharp.Winform.UI.Loading.#ctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:CSharp.Winform.UI.Loading.#ctor(System.Boolean)">
+            <summary>  
+            Initializes the load control  
+            </summary>
+            <param name="showLoadingImage">Display the loaded image</param>  
+        </member>
+        <member name="M:CSharp.Winform.UI.Loading.#ctor(System.Int32,System.Boolean)">
+            <summary>  
+            Initializes the load control +1
+            </summary>
+            <param name="alpha">alpha</param>  
+            <param name="showLoadingImage">Display the loaded image</param> 
+        </member>
+        <member name="P:CSharp.Winform.UI.Loading.BkColor">
+            <summary>
+            Control background color
+            </summary>
+        </member>
+        <member name="P:CSharp.Winform.UI.Loading.IsTransparent">
+            <summary>
+            Transparency is used, the default is true
+            </summary>
+        </member>
+        <member name="P:CSharp.Winform.UI.Loading.Alpha">
+            <summary>
+            Set transparency 0-255
+            </summary>
+        </member>
+        <member name="P:CSharp.Winform.UI.Loading.BindControl">
+            <summary>
+            Bind controls that need to be masked, and bind forms by default
+            </summary>
+        </member>
+        <member name="P:CSharp.Winform.UI.Loading.LoadingImage">
+            <summary>
+            Loading background-image
+            </summary>
+        </member>
+        <member name="M:CSharp.Winform.UI.Loading.OnPaint(System.Windows.Forms.PaintEventArgs)">
+            <summary>
+            Redraw
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:CSharp.Winform.UI.Loading.Dispose(System.Boolean)">
+            <summary>
+            Dispose
+            </summary>
+            <param name="disposing"></param>
+        </member>
+        <member name="P:CSharp.Winform.UI.Loading.CreateParams">
+            <summary>
+            CreateParams
+            </summary>
+        </member>
+        <member name="M:CSharp.Winform.UI.Loading.ShowLoad">
+            <summary>  
+            Show  
+            </summary>  
+        </member>
+        <member name="M:CSharp.Winform.UI.Loading.HideLoad">
+            <summary>  
+            Hide  
+            </summary>  
+        </member>
+        <member name="T:CSharp.Winform.UI.MaskedTextBox">
+            <summary>
+            MaskedTextBox
+            </summary>
+        </member>
+        <member name="M:CSharp.Winform.UI.MaskedTextBox.#ctor">
+            <summary>
+            MaskedTextBox
+            </summary>
+        </member>
+        <member name="T:CSharp.Winform.UI.MenuStrip">
+            <summary>
+            MenuStrip
+            </summary>
+        </member>
+        <member name="M:CSharp.Winform.UI.MenuStrip.#ctor">
+            <summary>
+            MenuStrip
+            </summary>
+        </member>
+        <member name="T:CSharp.Winform.UI.NumericUpDown">
+            <summary>
+            NumericUpDown
+            </summary>
+        </member>
+        <member name="M:CSharp.Winform.UI.NumericUpDown.#ctor">
+            <summary>
+            NumericUpDown
+            </summary>
+        </member>
+        <member name="T:CSharp.Winform.UI.Panel">
+            <summary>
+            Panel
+            </summary>
+        </member>
+        <member name="M:CSharp.Winform.UI.Panel.#ctor">
+            <summary>
+            Panel
+            </summary>
+        </member>
+        <member name="T:CSharp.Winform.UI.PropertyGrid">
+            <summary>
+            PropertyGrid
+            </summary>
+        </member>
+        <member name="M:CSharp.Winform.UI.PropertyGrid.#ctor">
+            <summary>
+            PropertyGrid
+            </summary>
+        </member>
+        <member name="T:CSharp.Winform.UI.RadioButton">
+            <summary>
+            RadioButton
+            </summary>
+        </member>
+        <member name="M:CSharp.Winform.UI.RadioButton.#ctor">
+            <summary>
+            RadioButton
+            </summary>
+        </member>
+        <member name="T:CSharp.Winform.UI.RichTextBox">
+            <summary>
+            RichTextBox
+            </summary>
+        </member>
+        <member name="M:CSharp.Winform.UI.RichTextBox.#ctor">
+            <summary>
+            RichTextBox
+            </summary>
+        </member>
+        <member name="T:CSharp.Winform.UI.SplitContainer">
+            <summary>
+            SplitContainer
+            </summary>
+        </member>
+        <member name="M:CSharp.Winform.UI.SplitContainer.#ctor">
+            <summary>
+            SplitContainer
+            </summary>
+        </member>
+        <member name="T:CSharp.Winform.UI.TabControl">
+            <summary>
+            TabControl
+            </summary>
+        </member>
+        <member name="M:CSharp.Winform.UI.TabControl.#ctor">
+            <summary>
+            TabControl
+            </summary>
+        </member>
+        <member name="T:CSharp.Winform.UI.TextBox">
+            <summary>
+            TextBox
+            </summary>
+        </member>
+        <member name="M:CSharp.Winform.UI.TextBox.#ctor">
+            <summary>
+            TextBox
+            </summary>
+        </member>
+        <member name="T:CSharp.Winform.UI.ToolStripButton">
+            <summary>
+            ToolStripButton
+            </summary>
+        </member>
+        <member name="M:CSharp.Winform.UI.ToolStripButton.#ctor">
+            <summary>
+            ToolStripButton
+            </summary>
+        </member>
+        <member name="T:CSharp.Winform.UI.ToolStripComboBox">
+            <summary>
+            ToolStripComboBox
+            </summary>
+        </member>
+        <member name="M:CSharp.Winform.UI.ToolStripComboBox.#ctor">
+            <summary>
+            ToolStripComboBox
+            </summary>
+        </member>
+        <member name="T:CSharp.Winform.UI.ToolStripDropDownButton">
+            <summary>
+            ToolStripDropDownButton
+            </summary>
+        </member>
+        <member name="M:CSharp.Winform.UI.ToolStripDropDownButton.#ctor">
+            <summary>
+            ToolStripDropDownButton
+            </summary>
+        </member>
+        <member name="T:CSharp.Winform.UI.ToolStripLabel">
+            <summary>
+            ToolStripLabel
+            </summary>
+        </member>
+        <member name="M:CSharp.Winform.UI.ToolStripLabel.#ctor">
+            <summary>
+            ToolStripLabel
+            </summary>
+        </member>
+        <member name="T:CSharp.Winform.UI.ToolStripMenuItem">
+            <summary>
+            ToolStripMenuItem
+            </summary>
+        </member>
+        <member name="M:CSharp.Winform.UI.ToolStripMenuItem.#ctor">
+            <summary>
+            ToolStripMenuItem
+            </summary>
+        </member>
+        <member name="T:CSharp.Winform.UI.ToolStripProgressBar">
+            <summary>
+            ToolStripProgressBar
+            </summary>
+        </member>
+        <member name="M:CSharp.Winform.UI.ToolStripProgressBar.#ctor">
+            <summary>
+            ToolStripProgressBar
+            </summary>
+        </member>
+        <member name="T:CSharp.Winform.UI.ToolStripSplitButton">
+            <summary>
+            ToolStripSplitButton
+            </summary>
+        </member>
+        <member name="M:CSharp.Winform.UI.ToolStripSplitButton.#ctor">
+            <summary>
+            ToolStripSplitButton
+            </summary>
+        </member>
+        <member name="T:CSharp.Winform.UI.ToolStripStatusLabel">
+            <summary>
+            ToolStripStatusLabel
+            </summary>
+        </member>
+        <member name="M:CSharp.Winform.UI.ToolStripStatusLabel.#ctor">
+            <summary>
+            ToolStripStatusLabel
+            </summary>
+        </member>
+        <member name="T:CSharp.Winform.UI.ToolStripTextBox">
+            <summary>
+            ToolStripTextBox
+            </summary>
+        </member>
+        <member name="M:CSharp.Winform.UI.ToolStripTextBox.#ctor">
+            <summary>
+            ToolStripTextBox
+            </summary>
+        </member>
+        <member name="T:CSharp.Winform.UI.ToolStrip">
+            <summary>
+            ToolStrip
+            </summary>
+        </member>
+        <member name="M:CSharp.Winform.UI.ToolStrip.#ctor">
+            <summary>
+            ToolStrip
+            </summary>
+        </member>
+        <member name="T:CSharp.Winform.UI.TreeView">
+            <summary>
+            TreeView
+            </summary>
+        </member>
+        <member name="P:CSharp.Winform.UI.TreeView.PrimaryType">
+            <summary>
+            Primary Key Type
+            </summary>
+        </member>
+        <member name="M:CSharp.Winform.UI.TreeView.#ctor">
+            <summary>
+            TreeView
+            </summary>
+        </member>
+        <member name="M:CSharp.Winform.UI.TreeView.Refresh``1(System.Collections.Generic.IList{``0})">
+            <summary>
+            Refresh
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="nodes">node list</param>
+        </member>
+        <member name="T:CSharp.Winform.UI.TreeView.TreeViewInt">
+            <summary>
+            TreeView Primary Key Type Is Int
+            </summary>
+        </member>
+        <member name="P:CSharp.Winform.UI.TreeView.TreeViewInt.TreeViewControl">
+            <summary>
+            Control
+            </summary>
+        </member>
+        <member name="M:CSharp.Winform.UI.TreeView.TreeViewInt.BindControl(System.Windows.Forms.TreeView)">
+            <summary>
+            Bind Control
+            </summary>
+            <param name="treeView">Control id</param>
+        </member>
+        <member name="M:CSharp.Winform.UI.TreeView.TreeViewInt.Refresh``1(System.Collections.Generic.IList{``0})">
+            <summary>
+            Refresh
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="nodes">node list</param>
+        </member>
+        <member name="M:CSharp.Winform.UI.TreeView.TreeViewInt.AddNode(System.Collections.Generic.List{CSharp.Winform.UI.TreeView.TreeViewInt.TreeNodeInfo})">
+            <summary>
+            AddNode 
+            </summary>
+            <param name="trees">Tree data</param>
+        </member>
+        <member name="M:CSharp.Winform.UI.TreeView.TreeViewInt.AddChildNode(System.Collections.Generic.List{CSharp.Winform.UI.TreeView.TreeViewInt.TreeNodeInfo},System.Int32,System.Windows.Forms.TreeNode)">
+            <summary>
+            AddChildNode 
+            </summary>
+            <param name="trees">Tree data</param>
+            <param name="parentId">Parent Id</param>
+            <param name="parentNode">Parent Node</param>
+        </member>
+        <member name="M:CSharp.Winform.UI.TreeView.TreeViewInt.Mapping``1(System.Collections.Generic.IList{``0})">
+            <summary>
+            Mapping Data 
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="list"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CSharp.Winform.UI.TreeView.TreeViewInt.TreeNodeInfo">
+            <summary>
+            TreeNodeInfo 
+            </summary>
+        </member>
+        <member name="P:CSharp.Winform.UI.TreeView.TreeViewInt.TreeNodeInfo.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:CSharp.Winform.UI.TreeView.TreeViewInt.TreeNodeInfo.ParentId">
+            <summary>
+            ParentId
+            </summary>
+        </member>
+        <member name="P:CSharp.Winform.UI.TreeView.TreeViewInt.TreeNodeInfo.TreeNode">
+            <summary>
+            TreeNode
+            </summary>
+        </member>
+        <member name="T:CSharp.Winform.UI.TreeView.TreeViewGuid">
+            <summary>
+            TreeView Primary Key Type Is Guid
+            </summary>
+        </member>
+        <member name="P:CSharp.Winform.UI.TreeView.TreeViewGuid.TreeViewControl">
+            <summary>
+            Control
+            </summary>
+        </member>
+        <member name="M:CSharp.Winform.UI.TreeView.TreeViewGuid.BindControl(System.Windows.Forms.TreeView)">
+            <summary>
+            Bind Control
+            </summary>
+            <param name="treeView">Control id</param>
+        </member>
+        <member name="M:CSharp.Winform.UI.TreeView.TreeViewGuid.Refresh``1(System.Collections.Generic.IList{``0})">
+            <summary>
+            Refresh
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="nodes">node list</param>
+        </member>
+        <member name="M:CSharp.Winform.UI.TreeView.TreeViewGuid.AddNode(System.Collections.Generic.List{CSharp.Winform.UI.TreeView.TreeViewGuid.TreeNodeInfo})">
+            <summary>
+            AddNode 
+            </summary>
+            <param name="trees">Tree data</param>
+        </member>
+        <member name="M:CSharp.Winform.UI.TreeView.TreeViewGuid.AddChildNode(System.Collections.Generic.List{CSharp.Winform.UI.TreeView.TreeViewGuid.TreeNodeInfo},System.Guid,System.Windows.Forms.TreeNode)">
+            <summary>
+            AddChildNode 
+            </summary>
+            <param name="trees">Tree data</param>
+            <param name="parentId">Parent Id</param>
+            <param name="parentNode">Parent Node</param>
+        </member>
+        <member name="M:CSharp.Winform.UI.TreeView.TreeViewGuid.Mapping``1(System.Collections.Generic.IList{``0})">
+            <summary>
+            Mapping Data 
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="list"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CSharp.Winform.UI.TreeView.TreeViewGuid.TreeNodeInfo">
+            <summary>
+            TreeNodeInfo 
+            </summary>
+        </member>
+        <member name="P:CSharp.Winform.UI.TreeView.TreeViewGuid.TreeNodeInfo.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:CSharp.Winform.UI.TreeView.TreeViewGuid.TreeNodeInfo.ParentId">
+            <summary>
+            ParentId
+            </summary>
+        </member>
+        <member name="P:CSharp.Winform.UI.TreeView.TreeViewGuid.TreeNodeInfo.TreeNode">
+            <summary>
+            TreeNode
+            </summary>
+        </member>
+        <member name="T:CSharp.Winform.UI.TreeView.TreeViewString">
+            <summary>
+            TreeView Primary Key Type Is String
+            </summary>
+        </member>
+        <member name="P:CSharp.Winform.UI.TreeView.TreeViewString.TreeViewControl">
+            <summary>
+            Control
+            </summary>
+        </member>
+        <member name="M:CSharp.Winform.UI.TreeView.TreeViewString.BindControl(System.Windows.Forms.TreeView)">
+            <summary>
+            Bind Control
+            </summary>
+            <param name="treeView">Control id</param>
+        </member>
+        <member name="M:CSharp.Winform.UI.TreeView.TreeViewString.Refresh``1(System.Collections.Generic.IList{``0})">
+            <summary>
+            Refresh
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="nodes">node list</param>
+        </member>
+        <member name="M:CSharp.Winform.UI.TreeView.TreeViewString.AddNode(System.Collections.Generic.List{CSharp.Winform.UI.TreeView.TreeViewString.TreeNodeInfo})">
+            <summary>
+            AddNode 
+            </summary>
+            <param name="trees">Tree data</param>
+        </member>
+        <member name="M:CSharp.Winform.UI.TreeView.TreeViewString.AddChildNode(System.Collections.Generic.List{CSharp.Winform.UI.TreeView.TreeViewString.TreeNodeInfo},System.String,System.Windows.Forms.TreeNode)">
+            <summary>
+            AddChildNode 
+            </summary>
+            <param name="trees">Tree data</param>
+            <param name="parentId">Parent Id</param>
+            <param name="parentNode">Parent Node</param>
+        </member>
+        <member name="M:CSharp.Winform.UI.TreeView.TreeViewString.Mapping``1(System.Collections.Generic.IList{``0})">
+            <summary>
+            Mapping Data 
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="list"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CSharp.Winform.UI.TreeView.TreeViewString.TreeNodeInfo">
+            <summary>
+            TreeNodeInfo 
+            </summary>
+        </member>
+        <member name="P:CSharp.Winform.UI.TreeView.TreeViewString.TreeNodeInfo.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:CSharp.Winform.UI.TreeView.TreeViewString.TreeNodeInfo.ParentId">
+            <summary>
+            ParentId
+            </summary>
+        </member>
+        <member name="P:CSharp.Winform.UI.TreeView.TreeViewString.TreeNodeInfo.TreeNode">
+            <summary>
+            TreeNode
+            </summary>
+        </member>
+        <member name="M:CSharp.Winform.UI.TreeView.WndProc(System.Windows.Forms.Message@)">
+            <summary>
+            WndProc
+            </summary>
+            <param name="m"></param>
+        </member>
+        <member name="M:CSharp.Winform.UI.TreeView.OnAfterCheck(System.Windows.Forms.TreeViewEventArgs)">
+            <summary>
+            Occurs when a check box is selected or unselected on a tree node
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:CSharp.Winform.UI.TreeView.SetNodeState(System.Windows.Forms.TreeNode)">
+            <summary>
+            Set child node selected state
+            </summary>
+            <param name="tn"></param>
+        </member>
+        <member name="M:CSharp.Winform.UI.TreeView.SetParentNodeState(System.Windows.Forms.TreeNode)">
+            <summary>
+            Set parent node selected state
+            </summary>
+            <param name="tn"></param>
+        </member>
+        <member name="T:CSharp.Winform.UI.Environment">
+            <summary>
+            Environment
+            </summary>
+        </member>
+        <member name="F:CSharp.Winform.UI.Environment.CurrentFont">
+            <summary>
+            Default font
+            </summary>
+        </member>
+        <member name="T:CSharp.Winform.UI.ITreeView">
+            <summary>
+            Interface TreeView
+            </summary>
+        </member>
+        <member name="M:CSharp.Winform.UI.ITreeView.BindControl(System.Windows.Forms.TreeView)">
+            <summary>
+            Bind Control
+            </summary>
+            <param name="treeView">Control id</param>
+        </member>
+        <member name="M:CSharp.Winform.UI.ITreeView.Refresh``1(System.Collections.Generic.IList{``0})">
+            <summary>
+            Refresh
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="nodes">node list</param>
+        </member>
+    </members>
+</doc>
